@@ -1,0 +1,63 @@
+    1  ls
+    2  sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+    3  sudo apt-get update
+    4  sudo apt-get install mosquitto
+    5  sudo apt-get install mosquitto-clients
+    6  sudo service mosquitto start
+    7  netstat -at
+    8  sudo service mosquitto stop
+    9  git clone https://github.com/groove-x/mqtt_bridge.git
+   10  cd mqtt_bridge/
+   11  ls
+   12  python --version
+   13  sudo apt install python3-pip
+   14  $ roslaunch mqtt_bridge demo.launch
+   15  ls
+   16  cd launch/
+   17  roslaunch demo.launch 
+   18  cd ..
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd catkin_ws/
+   23  ls
+   24  cd src/
+   25  ls
+   26  git clone https://github.com/groove-x/mqtt_bridge.git
+   27  cd ..
+   28  catkin_make
+   29  source devel/setup.bash 
+   30  $ roslaunch mqtt_bridge demo.launch
+   31  cd src/
+   32  ls
+   33  rm -rf mqtt_bridge/
+   34  git clone -t python2.7 https://github.com/groove-x/mqtt_bridge.git
+   35  git clone -b python2.7 https://github.com/groove-x/mqtt_bridge.git
+   36  cd ..
+   37  ls
+   38  rm -rf build/
+   39  catkin_make
+   40  rm -rf build/
+   41  pip install -r src/mqtt_bridge/requirements.txt 
+   42  sudo apt install python-pip
+   43  pip install -r src/mqtt_bridge/requirements.txt 
+   44  catkin_make
+   45  roslaunch mqtt_bridge demo.launch
+   46  pip install bson inject paho-mqtt msgpack-python
+   47  sudo -H pip2 install bson inject paho-mqtt msgpack-python
+   48  sudo service mosquitto start
+   49  roslaunch mqtt_bridge demo.launch
+   50  sudo -H pip install inject
+   51  sudo -H pip install inject --no-chache-dir
+   52  sudo -H pip install inject --no-cache-dir
+   53  pip install Inject==1.0.1
+   54  pip install Inject==3.3.2
+   55  roslaunch mqtt_bridge demo.launch
+   56  pip install bson paho-mqtt msgpack-python
+   57  roslaunch mqtt_bridge demo.launch
+   58  rm -rf build/
+   59  catkin_make
+   60  source devel/setup.bash 
+   61  roslaunch mqtt_bridge demo.launch
+   62  sudo apt-get install ros-melodic-rosbridge-server
+   63  roslaunch mqtt_bridge demo.launch
